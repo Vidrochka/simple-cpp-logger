@@ -1,0 +1,5 @@
+P:/simple-cpp-logger/simple-cpp-logger/example/simple-cpp-logger-example/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+P:/simple-cpp-logger/simple-cpp-logger/example/simple-cpp-logger-example/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+P:/simple-cpp-logger/simple-cpp-logger/example/simple-cpp-logger-example/out/build/x64-Debug/simple-cpp-logger-example/CMakeFiles/simple-cpp-logger-example.dir
+P:/simple-cpp-logger/simple-cpp-logger/example/simple-cpp-logger-example/out/build/x64-Debug/simple-cpp-logger-example/CMakeFiles/edit_cache.dir
+P:/simple-cpp-logger/simple-cpp-logger/example/simple-cpp-logger-example/out/build/x64-Debug/simple-cpp-logger-example/CMakeFiles/rebuild_cache.dir
