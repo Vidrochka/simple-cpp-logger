@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 
 .vscode/
+example/simple-cpp-logger-example/out

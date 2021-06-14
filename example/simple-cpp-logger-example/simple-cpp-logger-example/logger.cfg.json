@@ -1,0 +1,27 @@
+{
+	"file": [
+		{
+			"file_path": "ConfigurableLog.log",
+			"log_format": 
+			{
+				"debug":
+				{
+					"simple":"{ll} | {msg} | d{hh:mm::ss}",
+					"simple_with_stacktrace":"{ll} | {msg} | {st} | d{hh:mm::ss}"
+				}
+			}
+		}
+	],
+	"console": [
+		{
+			"log_format":
+			{
+				"debug":
+				{
+					"simple":"{ll} | {msg} | d{hh:mm::ss}",
+					"simple_with_stacktrace":"{set-color:Grey}{ll} | {set-color:Yellow}{msg} | {set-color:LightCyan}{st} | d{hh:mm::ss}"
+				}
+			}
+		}
+	]
+}

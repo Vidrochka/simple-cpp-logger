@@ -3,12 +3,18 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-include_directories("../../include/")
+set(LOG_SRC
+    "../../../src/SimpleCppLogger.cpp"
+    "../../../strategy-extensions/ConfigurableLoggerStrategy.cpp"
+)
 
-include_directories("../../../third-party-libs/boost_1_75_0/")
+include_directories("../../../include/")
+include_directories("../../../strategy-extensions/ConfigurableLoggerStrategy.hpp")
+
+include_directories("../../../third-party-libs/")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (simple-cpp-logger-example "simple-cpp-logger-example.cpp" "simple-cpp-logger-example.h")
+add_executable (simple-cpp-logger-example "simple-cpp-logger-example.cpp" "simple-cpp-logger-example.h" ${LOG_SRC})
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
 
