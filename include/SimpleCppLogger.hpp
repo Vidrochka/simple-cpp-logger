@@ -102,7 +102,7 @@ namespace scl
 				MsgFormat info_format = MsgFormat{
 					"{set-color:Cyan}d{hh:mm:ss dd:MM:yyyy} {set-color:Green}<{ll}> {nl}{set-color:Yellow} -> \"message\": \"{msg}\"{nl}",
 					"{set-color:Cyan}d{hh:mm:ss dd:MM:yyyy} {set-color:Green}<{ll}> {nl}{set-color:Yellow} -> \"message\": \"{msg}\"{nl}{set-color:Orange} -> \"stack_trace\":{nl}{st}{nl}"
-				
+	
 				},
 				MsgFormat warning_format = MsgFormat{
 					"{set-color:Cyan}d{hh:mm:ss dd:MM:yyyy} {set-color:Orange}<{ll}> {nl}{set-color:Yellow} -> \"message\": \"{msg}\"{nl}",
